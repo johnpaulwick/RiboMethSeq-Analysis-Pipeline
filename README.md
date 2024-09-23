@@ -26,6 +26,22 @@ A subdirectory called "temp" is created during the analysis to store the interme
 
 The output of the RiboMethSeq analysis contains four PNG images saved locally. These images describe the methylation profile of the sample being analyzed; the first shows a barplot of total counts of starts and ends (5' and 3' extremes) in the RNA fragments by base position, the second shows only the counts of the fragment starts (5' extremes) by position, and the third shows only the counts of the fragment ends (3' extremes) by position. The last image is a graphic showing relative methylation rates derived from the combined 5' and 3' end counts, using a custom scoring function based on min-max normalization of fractions of reads. 
 
+# Dependencies:
+
+- Bowtie2
+
+- Samtools
+
+- pysam
+
+- argparse
+
+- os
+
+- subprocess
+
+- matplotlib.pyplot as plt
+
 # Instructions
 
 To replicate the analysis, follow the instructions below (for linux terminal). Be sure to wait for the message in the terminal that the analysis is complete - it may take a minute.
