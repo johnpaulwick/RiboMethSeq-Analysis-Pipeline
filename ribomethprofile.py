@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-
-# RBIF 109 Final Project
 # Author: John Paul Wick
 # 16 September 2024
 
